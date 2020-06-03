@@ -1,0 +1,73 @@
+/*styles for smaller laptops and tablets*/
+/*min-width: 768px, max-width: 992px*/
+.navbar-brand {
+   font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+   font-size: 13px;
+}
+
+
+.welcome .welcomeLayer h1 {
+   font-size: 45px;
+   padding-top: 20%;
+   padding-right: 30%;
+}
+.welcome .welcomeLayer h3 {
+   font-size: 20px;
+}
+.welcome .welcomeLayer ul li[class="hours"] {
+   font-size: 18px;
+}
+
+
+.about video {
+   margin-top: 5%;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+
+
+.dinnerSeriesMenus .container-fluid {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+.dinnerSeriesMenus .boxed {
+   margin-top: 5%;
+   margin-bottom: 2%;
+}
+.dinnerSeriesMenus .boxed img {
+   width: 80%;
+   height: auto;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.dinnerSeriesMenus .boxed2 {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+
+.refPage #refTitle {
+   margin-top: 15%;
+}
+
+/*special case media queries equal to or greater than a width of 900px*/
+@media screen and (min-width: 900px) {
+    .welcome .welcomeLayer h1 {
+        font-size: 55px;
+        padding-top: 15%;
+        padding-right: 35%
+    }
+    .welcome .welcomeLayer h3 {
+         padding-right: 20%;
+   }
+
+   .dinnerSeriesMenus .boxed {
+      margin-top: 2%;
+   }
+   .dinnerSeriesMenus .boxed2 {
+      padding-left: 40px;
+      padding-right: 40px;
+   }
+}

@@ -1,0 +1,70 @@
+/*styles for screens larger than 1200px*/
+.navbar-brand {
+   font-size: 50px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+}
+
+.welcome .welcomeLayer h3 {
+   padding-left: 20%;
+   padding-right: 30%;
+}
+.welcome .welcomeLayer ul li[class="hours"] {
+   font-size: 22px;
+}
+
+
+.food h4, .brunch h4 {
+   font-size: 22px;
+}
+.new, .veg, .addOn, .addOn-brunch {
+   font-size: 18px;
+}
+.descriptionFood, .descriptionBrunch {
+   font-size: 18px;
+}
+#burger-addOn, #allergy-warning {
+   font-size: 16px;
+}
+#brunchInfo {
+   font-size: 18px;
+}
+
+
+
+.about video {
+   margin-left: 25%;
+   margin-top: 1%;
+}
+.about h4 {
+   font-size: 24px;
+}
+.about p {
+   font-size: 18px;
+}
+
+
+footer .innerFooter .socialMediaLinks a {
+   font-size: 30px;
+}
+footer .innerFooter .socialMediaLinks i[class="fa fa-facebook"] {
+   padding: 6px 12px 6px 12px;
+}
+footer .innerFooter .socialMediaLinks i[class="fa fa-instagram"] {
+   padding: 7px 9px 7px 9px;
+}
+footer .innerFooter h5 {
+   font-size: 20px;
+}
+footer .bottomFooter p {
+   font-size: 16px;
+}
+
+
+.dinnerSeriesMenus h5 {
+   font-size: 20px;
+}
+.dinnerSeriesMenus a {
+   font-size: 18px;
+}

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   <meta name="keywords" content="chef's, playground, eatery, restaurant, steveston, richmond, vancouver, local, fresh, food, drink">
+   <meta name="description" content="Local family friendly restaurant serving with quality and fresh ingredients">
+   <meta name="author" content="Chef's Playground Eatery">
+
+   <title>Chef's Playground Eatery</title>
+
+   <!-- Bootstrap -->
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+   <script type="text/javascript" src="./Javascript/bookmarkscroll.js">
+      /***********************************************
+      * Scrolling HTML bookmarks- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+      * Please keep this notice intact
+      * Visit Project Page at http://www.dynamicdrive.com for full source code
+      ***********************************************/
+   </script>
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,600,900" rel="stylesheet">
+   <!-- Specify in CSS:
+   font-family: 'Raleway', sans-serif; -->
+
+
+   <!-- Font Awesome by Dave Gandy - http://fontawesome.io -->
+   <link rel="stylesheet" href="./Styles/font-awesome-4.7.0/css/font-awesome.min.css">
+   <!-- [if lt IE 8]>
+      <link rel="stylesheet" href="Styles/font-awesome-4.7.0/css/font-awesome.min.css">
+   <![endif]-->
+
+
+   <!-- My Styles -->
+   <link rel="stylesheet" href="./Styles/mainStyles.css">
+   <link rel="stylesheet" href="./Styles/xsStyles.css" media="only screen and (max-width: 768px)">
+   <link rel="stylesheet" href="./Styles/smStyles.css" media="only screen and (min-width: 767px) and (max-width: 991px)">
+   <link rel="stylesheet" href="./Styles/mdStyles.css" media="only screen and (min-width: 991px) and (max-width: 1270px)">
+   <link rel="stylesheet" href="./Styles/lgStyles.css" media="only screen and (min-width: 1270px)">
+
+
+   <!-- Style sheet links for Internet Explorer prior to version 9 -->
+   <!-- [if lt IE 8]>
+      <link rel="stylesheet" href="./Styles/mainStyles.css">
+      <link rel="stylesheet" href="./Styles/xsStyles.css" media="only screen and (max-width: 768px)">
+      <link rel="stylesheet" href="./Styles/smStyles.css" media="only screen and (min-width: 767px) and (max-width: 991px)">
+      <link rel="stylesheet" href="./Styles/mdStyles.css" media="only screen and (min-width: 991px) and (max-width: 1270px)">
+      <link rel="stylesheet" href="./Styles/lgStyles.css" media="only screen and (min-width: 1270px)">
+   <![endif]-->
+
+
+   <style media="screen">
+      * {
+         font-family: 'Raleway', sans-serif;
+      }
+   </style>
+
+</head>
+  <body>
+
+     <!-- navbar header -->
+     <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                   <span style="color: white" class="sr-only">Toggle navigation</span>
+                   <span style="color: white" class="icon-bar"></span>
+                   <span style="color: white" class="icon-bar"></span>
+                   <span style="color: white" class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#top" data-toggle="tooltip" title="Home"><span><strong>Chef's</strong></span> Playground Eatery</a>
+             </div> <!--href="#" reloads page-->
+
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- <ul class="nav navbar-nav">
+                   <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                   <li><a href="#">Link</a></li>/
+                </ul> -->
+                <ul class="nav navbar-nav navbar-right">
+                   <!-- <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li> -->
+                   <li><a id="foodLink" class="navLinks" href="javascript:bookmarkscroll.scrollTo('food')">Menu</a></li>
+                   <li><a id="aboutUsLink" class="navLinks" href="javascript:bookmarkscroll.scrollTo('about')">About Us</a></li>
+                   <li><a id="dinnerLink" class="navLinks?scrollto=dinnerSeries" href="./Pages/dinnerSeries.html?scrollto=dinnerSeries">Chef's Series</a></li>
+                   <li><a id="contactLink" class="navLinks" href="./Pages/contact.html?scrollto=contactUs">Contact</a></li>
+
+                </ul>
+             </div><!-- /.navbar-collapse -->
+         </div><!-- /.container-fluid -->
+      </nav>
+     </header>
+
+
+   <!--welcome section-->
+    <section id="welcome" class="welcome">
+      <div class="welcomeBackground">
+         <div class="welcomeLayer">
+            <h1 style="color:white">Where Chefs Think Outside of the Box.</h1>
+            <h3>We provide quality service and deliver only the freshest local ingredients to our guests. Our dishes are specially crafted with creativity and passion by our talented chefs.</h3>
+            <h3><br><br>Hours of Operation:</h3>
+            <ul id="unorderedList">
+               <li class="hours">Monday-Friday / 11am-8pm</li>
+               <li class="hours">Saturday &amp Sunday / 10am-8pm</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <!-- Main Menu -->
+   <section id="food" class="food">
+      <div class="container-fluid"> <!-- The "container" class or "container-fluid" class is necessary to when using the Bootstrap grid system. The "row" class has a -15px left and right margin which the .container or .container-fluid will cancel out -->
+         <div class="row">
+            <div class="col-md-12">
+               <img id="menuLogo" src="./Assets/Logo.jpg" alt="CPE Logo">
+            </div>
+         </div>
+
+         <!-- Main Title -->
+         <div class="row">
+            <div class="col-md-12">
+               <h2>Lunch &amp Dinner</h2>
+            </div>
+         </div>
+
+         <!-- STARTERS -->
+         <div class="row">
+            <div class="col-md-12">
+               <h3>LET'S GET STARTED</h3>
+            </div>
+         </div>
+
+         <!-- Truffle Fries -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">TRUFFLE FRIES &nbsp 6</h4>
+               <p class="foodItem new">NEW</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Crispy hand-cut fries, truffle oil, truffle salt, parmesan cheese.</p>
+            </div>
+         </div>
+
+         <!-- Triple Garlic Fries -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">TRIPLE GARLIC FRIES &nbsp 5</h4>
+               <p class="foodItem glutenFree">Gf</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Crispy hand-cut fries, garlic butter, garlic, garlic salt.</p>
+            </div>
+         </div>
+
+         <!-- The Canadian Duck Poutine -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">THE CANADIAN DUCK POUTINE &nbsp 8</h4>
+               <p class="foodItem new">NEW</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Crispy hand-cut fries, pulled duck meat, scardillo cheese curds, swiss cheese, Duck Gravy (made from scratch)!</p>
+            </div>
+         </div>
+
+         <!-- Gazpacho Soup (Cold) -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">GAZPACHO SOUP (COLD) &nbsp 6.5</h4>
+               <p class="foodItem new">NEW</p>
+               <i class="fa fa-leaf foodItem veg" aria-hidden="true"></i>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Tomato, cucumber, onion, roasted garlic, house baked garlic toast.</p>
+            </div>
+         </div>
+
+         <!-- Dry Ribs With A Kick -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">DRY RIBS WITH A KICK &nbsp 8</h4>
+               <p class="foodItem new">NEW</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Pork dry ribs, garlic butter, spices, crispy onion strings, slaw, parsley.</p>
+            </div>
+         </div>
+
+         <!-- The Duck Drumettes -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">THE DUCK DRUMETTES &nbsp 8</h4>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Our honey-soy glazed duck drumettes topped with fried garlic, greens &amp pickled onion. </p>
+            </div>
+         </div>
+
+
+         <!-- MAINS -->
+         <div class="row">
+            <div class="col-md-12">
+               <h3>LET'S GET DOWN TO BUSINESS</h3>
+            </div>
+         </div>
+
+         <!-- Chef's Healthy Summer Salad -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">CHEF'S HEALTHY SUMMER SALAD &nbsp 11</h4>
+               <p id="mobileShiftSalad" class="foodItem new">NEW</p>
+               <i class="fa fa-leaf foodItem veg" aria-hidden="true"></i>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class= "descriptionFood addOn-comes-after">House salad blend, <em>candied walnuts</em>, apricots, blueberries, cucumber, pickled onion, radish, apple-cider vinaigrette</p>
+               <p id="add" class="addOn">&nbsp &gt&gt Add chicken thigh 4 / Avocado 2.5</p>
+            </div>
+         </div>
+
+         <!-- Steak N' Frites -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">STEAK N' FRITES &nbsp 18.5</h4>
+               <p class="foodItem new">NEW</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Organic grass-fed "Butcher's Tenderloin," portobello blue cheese butter, roasted garlic potato, house greens.</p>
+            </div>
+         </div>
+
+         <!-- Sticky Ale Back Ribs -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">STICKY ALE BACK RIBS &nbsp 17</h4>
+               <p div class="foodItem new">NEW</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Canadian pork back ribs, roasted potato, coleslaw, pale ale BBQ sauce, spicy apple mustard.</p>
+            </div>
+         </div>
+
+         <!-- Chicken N' Chips -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">CHICKEN N' CHIPS &nbsp 13.5</h4>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Boneless, fried cajun chicken marinated in pale ale; coleslaw, fries, critic's honey aioli, spicy ketchup.</p>
+            </div>
+         </div>
+
+         <!-- Chef's Boy Cheesy Tortiglioni With Cajun Chicken Thigh -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">CHEF'S BOY CHEESY TORTIGLIONI WITH CAJUN CHICKEN THIGH &nbsp 13.5</h4>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Three cheese mornay sauce, tortiglioni, Fraser Valley cajun chicken thigh, bacon bits, focaccia garlic toast.</p>
+            </div>
+         </div>
+
+         <!-- Green Curry Apple Veggie Tofu Stack -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">GREEN CURRY APPLE VEGGIE TOFU STACK &nbsp 12</h4>
+               <p id="mobileShiftApple" class="foodItem glutenFree">Gf</p>
+               <i class="fa fa-leaf foodItem veg" aria-hidden="true"></i>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood addOn-comes-after">Roast apple veggie curry(cabbage, carrot, eggplant, succhini, onion, yam) pan seared tofu, hand cut coleslaw, house baked focacci bread.</p>
+               <p class="addOn">&nbsp &gt&gt sub crispy rice noodle for gluten</p>
+            </div>
+         </div>
+
+
+         <!-- BURGERS -->
+         <div class="row">
+            <div class="col-md-12">
+               <h3 style="margin-bottom: 2px;">BURGER</h3>
+               <p id="burger-addOn"style="color: #dd0202; font-weight: bold; margin-left: 10%">upgrade to garlic fries or salad 1.5</p>
+            </div>
+         </div>
+
+         <!-- The Ultimate Duck Burger -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">THE ULTIMATE DUCK BURGER &nbsp 13.5</h4>
+               <p class="foodItem new">NEW</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Ground duck patty, crispy onion string, tomato, house greens, brioche bun with orange aioli, hand-cut fries, duck gravy.</p>
+            </div>
+         </div>
+
+         <!-- Mushroom Cheesy Burger -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">MUSHROOM CHEESY BURGER &nbsp 12</h4>
+               <p class="foodItem new">NEW</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Organic grass-fed beef patty, swiss cheese, cheddar cheese, sautéed mushrooms, caramelized onions, tomato, house greens, brioche bun, roast garlic aioli sauce, hand-cut fries.</p>
+            </div>
+         </div>
+
+         <!-- Big & Messy K.C. Barbecue Pull Pork Sandwich -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">BIG &amp MESSY K.C. BARBECUE PULL SANDWICH &nbsp 12</h4>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Kansas City style pulled pork, coleslaw, pickled onion, tomato, brioche bun, hand cut fries, chipotle aioli, BBQ sauce.</p>
+            </div>
+         </div>
+
+         <!-- Bacon Cheddar Burger v2.0 -->
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="foodItem">BACON CHEDDAR BURGER V2.0 &nbsp 11</h4>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <p class="descriptionFood">Organic grass-fed beef patty, aged cheddar, pepper-crusted bacon, caramelized onions, tomato, house greens, brioche bun, chipotle aioli, Chef's secret burger sauce, hand cut fries.</p>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-md-12">
+               <p id="allergy-warning" style="text-align: center"><br><strong>**Please let us know if you have any allergy concerns or questions and we will do our best to accommodate your meal.</strong></p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="blueDivider"></section>
+
+   <!-- Brunch Menu -->
+   <section class="brunch">
+      <div class="brunchBackground">
+         <div class="brunchLayer">
+            <div class="brunchInnerLayer">
+               <div class="container-fluid"> <!-- The "container" class or "container-fluid" class is necessary to when using the Bootstrap grid system. The "row" class has a -15px left and right margin which .container or .container-fluid will cancel out -->
+                  <!-- Main Title -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2>Brunch Weekend!!</h2>
+                        <p id="brunchInfo">(Served on Saturay &amp Sunday from 10am - 2pm)</p>
+                     </div>
+                  </div>
+
+                  <!-- Chef's Benny -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">CHEF'S BENNY &nbsp 9</h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch">Free range egg, citrus hollandaise, honey and thyme glazed back bacon, house made focaccia bread, hand cut hash browns.</p>
+                     </div>
+                  </div>
+
+                  <!-- Avo Mushroom Benny -->
+                  <div class="row">
+                     <div class="col-md-12">
+                           <h4 class="foodItem">AVO MUSHROOM BENNY &nbsp 9</h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch">Free range egg, citrus hollandaise, smashed avocado, sautéed mushrooms, house made focacci bread, hand cut hash browns.</p>
+                     </div>
+                  </div>
+
+                  <!-- Steel Head Gravlax Benny -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">STEEL HEAD GRAVLAX BENNY &nbsp 11</h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <p class="descriptionBrunch">Free range egg, Steel Head Gravlax with Chef Gordy's twist, citrus hollandaise, house made focaccia bread, hand cut hash browns.</p>
+                     </div>
+                  </div>
+
+                  <!-- Beer Braised Veal Short Rib Benny -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">BEER BRAISED VEAL SHORT RIB BENNY &nbsp 11.5</h4>
+                        <p class="foodItem new">NEW</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch addOn-comes-after">Free range egg, citrus hollandaise; beer braised, milk-fed veal short rib; house made focacci bread, hand cut hash browns.</p>
+                        <p class="addOn-brunch">&nbsp &gt&gt Sriracha hollondaise 0.5</p>
+                     </div>
+                  </div>
+
+                  <!-- The Big Daddy Steak N' Egg -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">THE BIG DADDY STEAK N' EGG &nbsp 15</h4>
+                        <p class="foodItem new">NEW</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch">Pan seared organic grass-fed steak (marinated in wasavi soy glaze), free range egg, bacon gravy, crispy onion strings, house made garlic focaccia bread.</p>
+                     </div>
+                  </div>
+
+                  <!-- Chef's Hearty Breakfast -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">CHEF'S HEARTY BREAKFAST &nbsp 11.5</h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch">Free range egg, pepper bacon, honey thyme sausage, boston baked beans, house made focaccia bread, house made berry jam, hand cut has browns.</p>
+                     </div>
+                  </div>
+
+                  <!-- Bacon Cheddar Burger v2.0 -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">BACON CHEDDAR BURGER V2.0 &nbsp 11</h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch">Organic grass-fed beef patty, aged cheddar, pepper-crusted bacon, caramelized onions, tomato, house greens, brioche bun, chipotle aioli, Chef's secret burger sauce, hand cut fries.</p>
+                     </div>
+                  </div>
+
+                  <!-- Big & Messy K.C. Barbecue Pull Pork Sandwich -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">BIG &amp MESSY K.C. BARBECUE PULL SANDWICH &nbsp 12</h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch">Kansas City style pulled pork, coleslaw, pickled onion, tomato, brioche bun, hand cut fries, chipotle aioli, BBQ sauce.</p>
+                     </div>
+                  </div>
+
+                  <!-- Chef's Healthy Summer Salad -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class="foodItem">CHEF'S HEALTHY SUMMER SALAD &nbsp 11</h4>
+                        <p class="foodItem new">NEW</p>
+                        <i class="fa fa-leaf foodItem veg" aria-hidden="true"></i>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="descriptionBrunch addOn-comes-after">House salad blend, <em>candied walnuts</em>, apricots, blueberries, cucumber, pickled onion, radish, apple-cider vinaigrette</p>
+                        <p class="addOn-brunch">&nbsp &gt&gt Add chicken thigh 4 / Avocado 2.5</p>
+                     </div>
+                  </div>
+
+                  <br><br> <!-- create space at bottom-->
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="about" class="about">
+      <h2>ABOUT US</h2>
+      <div id="gordon">
+         <h4>Gordon Wu (Owner &amp Head Chef)</h4>
+         <p>With over 10 years of experience, Gordon's childhood interest has always been cooking. He says, "My favourite tv show when I was a kid was Iron Chef (Japanese version). I spent more time watching the Food Network than cartoons."
+         <br><br>
+         Gordon first started working in Winnipeg, MB as a kitchen helper when he realized his true passion of working in a restaurant. He then moved onto working at a Japanese restaurant develop his skills in Japanese cuisine.
+         <br><br>
+         Since 2007, after studying Culinary Art and Hospitality at the <a id="artInstitue" href="http://www.artinstitutevancouver.com/" data-toggle="tooltip" title="Art Institue of Vancouver" target="_blank"><mark><em>Art Institue of Vancouver</em></mark></a>, Gordon continues to pursue his cooking adventures, his passion and loving to consistently deliver the most fresh and local ingredients to the table for everyone to enjoy.
+         </p>
+      </div>
+
+
+      <div id="nameStory">
+         <h4>The Evolution of the Name</h4>
+         <p>
+            During the summer of 2015 when I had decided to proceed with my idea of opening a
+             restaurant, I realized that I had to first come up with a name. My first ideas were "Steveston Seafood Grill, Gordo's Diner, G's Buger House," and so on. After much thought, I finally decided on the name "Gordy's Kitchen."
+            <br><br>
+            Just when I thought we were all set to go in 2016, a slight twist came my way. That summer, I went to visit my family in Asia. While I was there, I went out one night to a wine bar with my older brother and younger sister. We were chatting about how fun an exciting this new restaurant would be and how eager I was to start a new and fun dining culture.
+            <br><br>
+            That was when I said, "I'm going to treat this like a playground more than a work place."
+            <br><br>
+            This was when the idea struck me to call it, "Chef's Playground," the place where a chef a can play and really have fun creating food. Not only will everyone enjoy eating the food, chefs also get to enjoy the creation process. My sister then jumped up with exctiement saying, "This is a great name! It's much better than Gordy's Kitchen."
+            <br><br>
+            This was the night our restaurant name came to be <span style="color: #dd0202"><strong>Chef's Playground Eatery</strong></span>.
+         </p>
+      </div>
+      <div>&nbsp</div>
+      <video id="vid" controls="controls">
+         <source src="./Assets/demoVideo.mp4">
+         <object data="./Assets/demoVideo.mp4">Demo Restaurant Video</object>
+      </video>
+
+   </section>
+
+
+   <!-- footer -->
+   <footer class="plusInfo">
+      <div class="innerFooter">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6 col-sm-12 firstHalf">
+                  <div class="socialMediaLinks">
+                     <a href="https://www.facebook.com/chefsplaygroundeatery/" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                     <a href="https://www.instagram.com/?hl=en" data-toggle="tooltip" title="Instagram @chefsplaygroundsteveston"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                  <dl> <!-- remove dl later -->
+                     <dt><h5><strong>CHEF'S PLAYGROUND EATERY</strong></h5></dt>
+                     <dd><h5> <a href="https://www.google.ca/maps/place/Chef's+Playground+Eatery/@49.1247683,-123.183162,17z/data=!3m1!4b1!4m5!3m4!1s0x5485e1d84cfa23ef:0x27adf75c5ce9570a!8m2!3d49.1247683!4d-123.1809733" data-toggle="tooltip" title="Address" target="_blank">#170-12420 No.1 Road Richmond, B.C V7E6N2</a></h5></dd>
+                     <dd><h5><a href="tel:+604-285-8079" data-toggle="tooltip" title="Phone Number">(604) 285-8079</a></h5></dd>
+                     <dd><h5><a id="emailIcon" href="./Pages/contact.html?scrollto=contactUs" data-toggle="tooltip" title="Email">Send Us An Email &nbsp<i class="fa fa-envelope" aria-hidden="true"></i></a></h5></dd>
+                  </dl>
+               </div>
+               <div class="col-md-6 col-sm-12 secondHalf">
+                  <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2610.9929908190793!2d-123.18316198431621!3d49.1247682793145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485e1d84cfa23ef%3A0x27adf75c5ce9570a!2sChef&#39;s+Playground+Eatery!5e0!3m2!1sen!2sca!4v1503193929973" width="100%" height="100%" frameborder="0"  allowfullscreen></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!-- Javascript -->
+   <script src="./Javascript/main.js" charset="utf-8"></script>
+   <!--[if lt IE 9]>
+      <script src="./Javascript/main.js" charset="utf-8"></script>
+   <![endif]-->
+
+   </body>
+</html>

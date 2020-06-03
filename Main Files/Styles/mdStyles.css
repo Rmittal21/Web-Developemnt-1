@@ -1,0 +1,45 @@
+/*styles for smaller laptops and tablets*/
+/*min-width: 992px, max-width: 1200px*/
+.navbar-brand {
+   font-size: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+}
+
+.welcome .welcomeLayer h1 {
+   font-size: 60px;
+}
+.welcome .welcomeLayer h3 {
+   font-size: 20px;
+   padding-right: 30%;
+}
+.welcome .welcomeLayer h3:first-of-type:first-letter {
+   float: left;
+   font-size: 40px;
+   line-height: 1;
+   font-weight: bold;
+   margin-right: 9px;
+}
+
+
+.about p {
+   font-size: 16px;
+}
+.about video {
+   margin-left: 25%;
+   margin-top: 1%;
+}
+
+
+.emailForm .row div {
+   padding: 0px
+}
+.emailForm .message label, textarea{
+   display: block;
+   vertical-align: 20%;
+}
+
+.refPage #refTitle {
+   margin-top: 15%;
+}

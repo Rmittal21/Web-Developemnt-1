@@ -1,0 +1,443 @@
+/*main styles for web pages*/
+
+/*navbar*/
+.navbar {
+   border: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+nav[class="navbar navbar-default navbar-fixed-top"] {
+   margin-bottom: 0px;
+   background-color: #dd0202;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.navbar-brand {
+   text-transform: uppercase;
+}
+.navbar-brand span {
+   letter-spacing: 3px;
+}
+.navbar-default .navbar-brand {
+    color: white !important;
+}
+.navbar-default .navbar-brand:hover {
+   color: white !important;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white !important;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+.navbar-default .navbar-nav li a:hover {
+   text-shadow: 3px 3px 2px rgba(0, 107, 255, 1);
+   color: #75f5ff !important;
+}
+@media screen and (min-width: 320px) {
+   .navbar-default .navbar-nav li a:hover {
+      transform: scale(1); /*for when the navbar turns into a dropdown menu to prevent text from clipping out of its container*/
+   }
+}
+@media screen and (min-width: 768px) {
+   .navbar-default .navbar-nav li a:hover {
+      transform: scale(1.2);
+   }
+}
+
+ul[class="nav navbar-nav navbar-right"] .navLinks {
+   padding-top: 16px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: white;
+}
+
+/*welcome section*/
+.welcome {
+   width: auto;
+   height: 750px;
+}
+.welcome .welcomeBackground {
+   width: inherit;
+   height: inherit;
+   background-image: url("../Assets/food/food4.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: left center;
+   background-size: cover;
+}
+.welcome .welcomeLayer {
+   width: inherit;
+   height: inherit;
+   background-color: rgba(124, 139, 163, 0.45);
+}
+.welcome .welcomeLayer h1 {
+   padding-top: 10%;
+   padding-left: 20%;
+   padding-right: 40%;
+   padding-bottom: 50px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+
+   font-size: 70px;
+   font-weight: 900;
+}
+.welcome .welcomeLayer h3 {
+   color: white;
+   padding-left: 20%;
+   padding-right: 20%;
+}
+.welcome .welcomeLayer h3:first-of-type:first-letter {
+   float: left;
+   font-size: 50px;
+   line-height: 1;
+   font-weight: bold;
+   margin-right: 9px;
+}
+.welcome .welcomeLayer ul {
+   list-style-type: square;
+   color: white;
+   padding-left: 22%;
+}
+.welcome .welcomeLayer ul li[class="hours"] {
+   margin-top: 0px;
+   margin-left: 0px;
+   padding-left: 0px;
+   font-size: 20px;
+}
+
+
+/*food section*/
+.food {
+   margin-bottom: 70px;
+}
+.food #menuLogo {
+   display: block;
+   margin: auto;
+   margin-top: 3%;
+   width: 10%;
+   border-radius: 50%;
+   /*opacity: 0.90;*/
+}
+.food h2 {
+   text-align: center;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+.food h3, .food h4 {
+   margin-left: 10%;
+}
+.food h3 {
+   text-decoration: underline;
+}
+.food h4 {
+   margin-bottom: 4px;
+}
+
+
+/*brunch section*/
+.brunch {
+   color: white;
+}
+.brunch .brunchBackground {
+   width: inherit;
+   background-image: url("../Assets/brunch/brunch1.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+.brunch .brunchLayer {
+   width: inherit;
+   background-color: rgba(124, 139, 163, 0.45);
+}
+.brunchInnerLayer {
+   background-color: rgba(255, 158, 158, 0.5);
+   margin-left: 8%;
+   margin-right: 8%;
+}
+.brunch h2 {
+   text-align: center;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-top: 5%;
+}
+.brunch h3, .brunch h4 {
+   margin-left: 2%;
+}
+.brunch h3 {
+   text-decoration: underline;
+}
+.brunch h4 {
+   margin-bottom: 4px;
+}
+.brunch #brunchInfo {
+   margin-left: 0px;
+   text-align: center;
+}
+
+/**/
+/*IMPORTANT: These are classes relating to special cases icons for both the "Main" and "Brunch" menus*/
+.descriptionFood {
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.descriptionBrunch {
+   margin-left: 2%;
+   margin-right: 2%;
+}
+.foodItem {
+   display: inline-block;
+}
+.glutenFree {
+   background-color: #dd0202;
+   color: white;
+   font-weight: 600;
+   border-radius: 50%;
+   padding-left: 2px;
+   padding-right: 2px;
+   margin-left: 4px;
+   margin-right: 2px;
+   margin-bottom: 0px;
+}
+.new {
+   /*matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()*/
+   transform: matrix(1, -0.5, 0, 1, 0, -5);
+   color: #dd0202;
+   font-weight: bold;
+   margin-left: 9px;
+   margin-right: 2px;
+   margin-bottom: 0px;
+}
+.veg {
+   color: green;
+   transform: rotate(-8deg);
+}
+.addOn-comes-after {
+   margin-bottom: 1px;
+}
+.addOn {
+   color: #dd0159;
+   font-weight: 600;
+   margin-left: 10%;
+}
+.addOn-brunch {
+   font-weight: 600;
+   margin-left: 2%;
+}
+/**/
+
+
+#blueDivider {
+   width: auto;
+   height: 20px;
+   border: 2px solid #7a91a8; /* grey */
+   background: #0272e2; /* blue */ /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(-90deg, #7a91a8, #0272e2, #7a91a8); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(-90deg, #7a91a8, #0272e2, #7a91a8); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(-90deg, #7a91a8, #0272e2, #7a91a8); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(-90deg, #7a91a8, #0272e2, #7a91a8); /* Standard syntax */
+}
+
+
+/*about section*/
+.about {
+   width: 100%;
+   margin-bottom: 5%;
+   padding-top: 3%;
+}
+.about h2 {
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 2%;
+}
+.about #gordon {
+   background-color: rgba(181, 191, 255, 0.5);
+   -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   -o-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   width: 30%;
+   margin-left: 5%;
+   margin-right: 1%;
+   float: left;
+}
+.about #gordon h4 {
+   text-align: center;
+   margin-top: 4%;
+}
+.about #gordon p {
+   margin: 3%;
+}
+.about #gordon p a {
+   text-decoration: none;
+}
+.about #gordon p a:link {
+   color: #0f63ad;
+}
+.about #gordon p a:visited {
+   color: #ff6666;
+}
+.about #nameStory {
+   margin-left: 1%;
+   margin-right: 5%;
+   background-color: rgba(255, 145, 145, 0.5);
+   -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   -o-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   width: 58%;
+   float: left;
+}
+.about #nameStory h4 {
+   text-align: center;
+   margin-top: 2%;
+}
+.about #nameStory p {
+   margin: 1.5%;
+}
+.about video {
+   width: 50%;
+   height: auto;
+   background-color: rgba(255, 145, 145, 0.5);
+   -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   -o-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+   box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.56);
+}
+
+/*footer*/
+footer .innerFooter {
+   background-color: #8f9393;
+}
+footer .innerFooter .firstHalf {
+   padding-top: 2%;
+   padding-left: 3%;
+}
+footer .innerFooter .firstHalf a {
+   color: inherit;
+   text-decoration: none;
+}
+footer .innerFooter .socialMediaLinks {
+   text-align: center;
+   font-size: 20px;
+}
+footer .innerFooter .socialMediaLinks i[class="fa fa-facebook"] {
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 8px;
+   padding-right: 8px;
+   border-radius: 50%;
+   background-color: white;
+   margin-right: 2px;
+}
+footer .innerFooter .socialMediaLinks i[class="fa fa-instagram"] {
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 50%;
+   background-color: white;
+   margin-left: 2px;
+}
+footer .innerFooter #emailIcon { /*mainly to ensure the link doesn't change color due to the scrollto.js file*/
+   color: black !important;
+}
+
+footer .innerFooter #map {
+   margin: 3%;
+}
+footer .innerFooter #map iframe {
+   border: 10px solid rgba(183, 0, 0, 0.65);
+}
+
+footer .bottomFooter {
+   background-color: #4c4c4c;
+}
+footer .bottomFooter p {
+   text-align: center;
+   color: white;
+}
+footer .bottomFooter .row div:nth-of-type(2) p{
+   color: #1cc978;
+}
+footer .bottomFooter {
+   padding-top: 1%;
+}
+
+
+/*For the Contact page*/
+.emailForm {
+   width: 100%;
+   padding-top: 10%;
+   margin-bottom: 5%;
+}
+.emailForm form .container-fluid {
+   width: 90%;
+}
+.emailForm form .row label, input, select, textarea {
+   display: inline-block;
+   margin: auto;
+}
+.emailForm form .row div {
+   padding-left: 2%;
+   padding-right: 2%;
+   text-align: center;
+}
+
+.emailForm h4 {
+   text-align: center;
+}
+.emailForm div {
+   margin-top: 2%;
+}
+.emailForm div input:focus, textarea:focus {
+   background-color: rgba(48, 157, 255, 0.1);
+}
+.emailForm div input:focus:invalid, textarea:focus:invalid {
+   border-color: red;
+}
+
+
+/*For the Dinner Series page*/
+.dinnerSeriesMenus {
+   width: 100%;
+   padding-top: 10%;
+   padding-bottom: 5%;
+   background-color: rgba(95, 177, 252, 0.6);
+}
+.dinnerSeriesMenus .container-fluid {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.dinnerSeriesMenus .boxed img {
+   width: 90%;
+   height: auto;
+   padding-left: 1%;
+   padding-right: 1%;
+   background-color: white;
+   border: 5px solid hsla(229, 100%, 69%, 1);
+}
+.dinnerSeriesMenus h3 {
+   font-weight: bold;
+}
+.dinnerSeriesMenus h5 {
+   font-weight: 600;
+}
+
+
+.refPage {
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.refPage #refTitle {
+   text-align: center;
+   margin-top: 8%;
+}
+.refPage .row p, .refPage .row ul {
+   font-size: 16px;
+}
+.refPage .row h4 {
+   font-weight: 600;
+}
